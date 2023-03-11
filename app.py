@@ -9,3 +9,38 @@ def index():
 
 if __name__ == '__main__':
     app.run() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+@app.route('/')
+def index():
+    todoList = ['Finish this tutorial', 'Learn Flask', 'Promgrammieren', 'Profit!']
+    return render_template('todo.html', todoList=todoList)
+
+if __name__ == '__main__':
+    app.run() 
+    
+    @app.route('/')
+def index():
+    todoList = ['Finish this tutorial', 'Learn Flask', 'Promgrammieren', 'Profit!']
+    return render_template('todo.html', todoList=todoList)
+
+if __name__ == '__main__':
+    app.run() 
+    */
